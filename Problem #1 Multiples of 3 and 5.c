@@ -18,7 +18,7 @@ int main()
         }
     }
 
-    printf("Sum: %d", sum);
+    printf("Sum of all the multiples of 3 and 5 below 1000: %d\n", sum);
 
     return 0;
 }
