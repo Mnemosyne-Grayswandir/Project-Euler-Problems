@@ -10,8 +10,7 @@
 
 int main()
 {
-    int a = 1, b = 2, sum = 0;
-    int num = a + b;
+    int a = 1, b = 2, num = 0, sum = 0;
 
     while (a <= 4000000){
         num = a;
