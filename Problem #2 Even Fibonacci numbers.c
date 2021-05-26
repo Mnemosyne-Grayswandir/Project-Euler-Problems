@@ -12,12 +12,12 @@ int main()
 {
     int a = 1, b = 2, num = 0, sum = 0;
 
-    while (a <= 4000000){
+    while (a < 4000000){
         num = a;
         a = b;
         b += num;
 
-        if (num % 2 == 0) {
+        if (num % 2 == 0){
             sum += num;
         }
     }
